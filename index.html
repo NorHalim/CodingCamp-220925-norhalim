@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Title</title>
+
+    <script onload="">
+        let user = prompt("Hello! What is your name?")
+        if(user == '')
+        {
+            location.reload()
+        }
+    </script>
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
@@ -17,7 +25,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-secondary d-flex">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24"></a>
+            <a class="navbar-brand d-inline-block align-text-center text-bg-secondary   " href="#"><img src="chef-hat.svg" alt="chef-hat" width="60" height="48">Let'em Cook</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,7 +37,7 @@
                         <a class="p-1 link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover" aria-current="page" href="#Home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="p-1 link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover" href="#Profile">Our Profile</a>
+                        <a class="p-1 link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover" href="#Profile">Profile</a>
                     </li>
                     <li class="nav-item">
                         <a class="p-1 link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover" href="#Products">Products</a>
@@ -45,63 +53,147 @@
 
     <div class="container p-1" id="Home">
         
-        <div class="display-6">
-            Hello, Name! Welcome to the site.
+        <div class="display-4">
+            Hello, <span class="hello text-secondary"></span>! Welcome to the kitchen.
         </div>
         <p class="lead">
-            Ini adalah website latihan mini project CCSE.
+            This is the right place if you want to cook.
         </p>
-        <!-- Content here -->
+        <hr>
     </div>
 
     <!-- Image Banner -->
     <div class="container">
-        <img src="https://images.unsplash.com/photo-1635372722656-389f87a941b7?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded mx-auto d-block" alt="...">
+        <img src="https://images.unsplash.com/photo-1588990678968-c092c0f54f0d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded mx-auto d-block" alt="Restaurant Kitchen Background">
+        <hr>
     </div>
-
+    
     <!-- Profile -->
-     <div class="container" style="text-align: justify;" id="Profile">
-        <h5>Profile</h5>
+    <div class="container" style="text-align: justify;" id="Profile">
+        <div class="display-6">Profile</div>
         <p>
-            Kami adalah perusahaan fiktif. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde perspiciatis velit dolor. Magni facilis velit laudantium consectetur voluptatum quos, vel debitis ea placeat repellendus sequi et ipsam magnam, saepe architecto vero, minima porro non. Aliquam porro fugiat, possimus, consectetur deleniti atque ipsa dolore asperiores repellat odit impedit sunt, quasi dolorem! Dolorem voluptatem tempora iure tenetur sequi repellendus rem placeat optio cupiditate rerum aspernatur asperiores, porro ex labore possimus culpa iste. Facilis, illo. Illum dignissimos nisi odit! Illo nesciunt vitae harum laudantium iste ipsum quod accusamus. At voluptatibus dolores unde earum dolorem quis dolor officiis? Ab ut assumenda excepturi aut nobis fugit, culpa expedita corporis aspernatur amet sint. Laudantium magni voluptatem atque eligendi neque voluptatum rem enim autem! Laborum, sed eos maxime blanditiis quod perspiciatis, tenetur debitis repudiandae tempora alias, possimus itaque accusantium? Ratione, iste quos deleniti fuga eveniet in earum. Magni doloribus nisi debitis aspernatur exercitationem minus commodi sint voluptate ullam rerum impedit, tempora nemo tenetur in omnis, suscipit eaque facere architecto consequuntur! Inventore a commodi, eius rem et vel sequi numquam veritatis in officiis esse incidunt ipsum fugiat saepe delectus possimus voluptatem accusantium aut. Odio, sint quas aliquam et, iusto recusandae voluptas error est at dolore deserunt nobis.
+            We provide everything you want to start cooking. From stoves to knives, or vegetables and spices. To make sure it's easy to start because cooking is nice. And when they ready, we gonna <i>Let'em Cook</i>.
         </p>
-     </div>
+        <hr>
+    </div>
      
     <!-- Products -->
-     <div class="container" style="text-align: justify;" id="Products">
-        <h5>Products</h5>
-        <p>
-            Kami adalah perusahaan fiktif. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi omnis, recusandae a repellat laborum corporis adipisci cupiditate fugiat enim? Accusantium eveniet laborum necessitatibus possimus officiis maiores ipsa soluta. Consequuntur qui iusto sit doloribus adipisci autem consectetur mollitia iure unde. Dolore minima accusamus ducimus porro amet aliquid facere neque nihil perferendis explicabo excepturi suscipit, recusandae dignissimos. Harum dolor saepe quae ratione recusandae, libero doloremque distinctio earum facere eveniet vero sint quasi. Architecto consequatur optio itaque quibusdam vel, odio voluptatum? Non, libero voluptatem laudantium culpa facilis expedita! Minus voluptas eveniet quia atque officia enim accusamus minima fugiat magni cupiditate quae inventore, voluptatem sequi animi eum aliquid aut perspiciatis iusto at ducimus? Consectetur aliquam esse nemo mollitia. Delectus rerum ipsa pariatur nulla excepturi odio culpa nesciunt, ea illum, repudiandae est molestias eaque animi corporis aperiam repellendus quod impedit officia eum reiciendis incidunt, quasi commodi aliquid. Illo nemo culpa corrupti? Aliquam, ratione eum vero earum dolore nesciunt nostrum nemo dignissimos facilis impedit blanditiis obcaecati consequatur rem eveniet doloribus asperiores nihil odit aspernatur a voluptatem laboriosam consectetur veniam, quam eius. Quis minus quidem nam magni! Vero odit consequuntur nostrum, totam eum ipsam in aperiam ad dolor et asperiores unde voluptatem deserunt, eos ipsum velit accusantium earum sapiente. Perferendis non quaerat fugiat aliquid, commodi nobis sapiente iste officia dolore, aut neque facilis aspernatur voluptate? Doloremque ipsum animi numquam necessitatibus facilis ipsam repudiandae dignissimos placeat dolore tenetur, maiores non doloribus architecto enim pariatur ad eveniet dolores harum voluptate dolorum fuga. Consequuntur mollitia quisquam odio obcaecati ratione unde? Et, quos architecto. Minima enim illum debitis eaque esse temporibus quam? Neque assumenda mollitia accusantium ab, laboriosam libero cum eos dignissimos provident, esse, iusto minus tenetur quis! Aspernatur, maxime! Perferendis aliquam, asperiores officiis eos odio dolor aut fugiat necessitatibus repudiandae expedita commodi perspiciatis quo. Porro sint ex rerum, animi facilis hic quisquam doloremque? Recusandae incidunt quas ullam consequuntur, velit quibusdam porro eos ipsum voluptatem! Nihil quod beatae ratione recusandae dolores vitae, provident inventore impedit enim fugiat numquam ad aspernatur at consectetur reprehenderit autem? Quisquam aut dicta illum maxime? Impedit nihil alias minima, consequatur unde dignissimos dolores dicta suscipit provident sit. Nostrum atque error sed quaerat modi voluptas, dolores odio velit laboriosam. Nam at nisi maiores omnis, possimus amet, debitis quae tempora perferendis ad excepturi atque! Eius cumque nulla natus quibusdam itaque neque esse illo voluptatem earum culpa enim, autem necessitatibus quam facere sint, qui magni deleniti? Quibusdam quod in hic.
-        </p>
-     </div>
+    <div class="container" style="text-align: justify;" id="Products">
+        <div class="display-6">Products</div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1485179490434-5ccc7ebf6dce?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-sm d-md-block">
+                    <h5>Stoves</h5>
+                    <p>Stable Heat for Consistent Results</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1560291544-bc203f6f95be?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-sm d-md-block">
+                    <h5>Knives</h5>
+                    <p>High-Quality Steel for Durability</p>
+                    </div>
+                </div>
 
-    <!-- Contact -->
-    <div class="container p-3">
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Nama</span>
-            <input type="text" class="form-control" placeholder="Nama" aria-label="Username" aria-describedby="basic-addon1">
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1485795046599-702122cd1267?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-sm d-md-block">
+                    <h5>Vegetables</h5>
+                    <p>Fresh and Natural from Local Farmers</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1553025934-296397db4010?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-sm d-md-block">
+                    <h5>Spices</h5>
+                    <p>From All Over The World for The Perfect Taste</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        
-        <div class="input-group mb-3">
-            <label class="input-group-text" for="inputGroupSelect01">Jenis Kelamin</label>
-            <select class="form-select" id="inputGroupSelect01">
-                <option value="1">Laki-Laki</option>
-                <option value="2">Perempuan</option>
-            </select>   
-        </div>
-        
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Tanggal</span>
-            <input type="date" name="Tanggal" id="Tanggal">
-        </div>
-
-        <div class="input-group">
-            <span class="input-group-text">Pesan</span>
-            <textarea class="form-control" aria-label="With textarea" rows="3"></textarea>
-        </div>
-
-        <button type="button" class="mt-2 btn btn-info">Submit</button>
+        <hr>
     </div>
 
+    <!-- Container for Contact -->
+    <div class="container">
+
+        <!-- Contact -->
+        <div class="display-6" id="Contact">Contact Us</div>
+        <form class="row g-3">
+            <div class="col-md-4">
+                <label for="contactName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="contactName" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-4">
+                <label for="contactDate" class="form-label">Date</label>
+                <input type="date" class="form-control" id="contactDate" required>
+            </div>
+        
+            <div class="col-md-4">
+                <label for="contactEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="contactEmail" placeholder="name@example.com" required>
+            </div>
+            <div class="col-md-4">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea id="contactMessage" class="form-control" placeholder="Insert Message Here"></textarea>
+            </div>
+            
+            <div class="col-12">
+                <button class="btn btn-secondary" type="" onclick="setPreview()">Send Message</button>
+            </div>
+        </form>
+        
+        <hr>
+        
+        <!-- Preview -->
+        <div class="m-3 col-sm bg-light border border-success-  ">
+            <div class="display-6">Preview</div>
+            
+            <div class="container">
+                <label for="previewName">Name :</label>
+                <span id="previewName"></span>
+            </div>
+
+            <div class="container">
+                <label for="previewDate">Date :</label>
+                <span id="previewDate"></span>
+            </div>
+
+            <div class="container">
+                <label for="previewEmail">Email :</label>
+                <span id="previewEmail"></span>
+            </div>
+            
+            <div class="container">
+                <label for="previewMessage">Message :</label>
+                <span id="previewMessage"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        let welcome = document.querySelector(".hello")
+        welcome.innerHTML = user
+    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
